@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+body::before {
+  content: "";
+  background: url("assets/images/trongdong.png") center/cover no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.3;
+  background-color: #525151;
+}
+/* HEADER */
+header {
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+header .logo {
+  width: 90px;
+}
+.logo img {
+  width: 100%;
+}
+.header__navbar ul {
+  list-style: none;
+  display: flex;
+}
+.header__navbar ul li a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.header__navbar ul li a:hover {
+  color: rgb(255, 244, 89);
+  text-decoration: underline;
+}
+.header__info {
+  display: flex;
+}
+.header__info > a {
+  color: #000;
+}
+.header__info > a:hover {
+  color: red;
+}
+.header__info i {
+  font-size: 33px;
+  margin: 15px;
+  padding: 5px;
+  color: #fff;
+}
+.header__info i:hover {
+  color: rgb(255, 244, 89);
+}
+.cart {
+  position: relative;
+}
+
+/* Product */
+.products {
+  width: 80%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin: 80px auto;
+  color: #140303;
+}
+.product-item {
+  width: 350px;
+  height: 550px;
+  padding: 15px;
+  box-shadow: 7px 4px 15px 2px rgba(212, 65, 65, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-color: #97b067;
+  border-radius: 20px;
+}
+.product-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.products-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.products-info h3 {
+  font-size: 27px;
+}
+.products-info a {
+  text-decoration: none;
+  width: 90%;
+  background-color: rgb(37, 89, 185);
+  text-align: center;
+  padding: 10px;
+  font-size: 17px;
+  color: #fff;
+  margin: 15px auto;
+  font-weight: 500;
+}
+.products-info a:hover {
+  color: rgb(255, 244, 89);
+}
+footer {
+  background-color: bisque;
+  padding: 10px;
+}
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+}
