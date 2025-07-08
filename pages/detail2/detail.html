@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Page</title>
+    <!--  Font awearsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Đường dẫn tới css -->
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="detail.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="../../index.html"
+          ><img src="../../assets/images/logo.png" alt="logo"
+        /></a>
+      </div>
+
+      <nav class="header__navbar">
+        <ul>
+          <li><a href="../../index.html">TRANG CHỦ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__info">
+        <i class="fa fa-search"></i>
+        <a class="cart" href="../../pages/cart/cart.html"></a>
+      </div>
+    </header>
+
+    <div class="detail-container">
+      <div class="detail">
+        <div class="detail-image">
+          <img
+            src="/assets/images/SƯ ĐOÀN 316 TRONG CHIẾN DỊCH TÂY NGUYÊN.png"
+            alt="CDTN"
+          />
+        </div>
+      </div>
+    </div>
+    <button class="BackBtn" onclick="goBack()">⬅️Quay lại</button>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>
