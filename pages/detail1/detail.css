@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.detail-container {
+  width: 100%;
+  margin: 20px auto 50px;
+}
+.detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail-image {
+  width: 800px;
+  margin: 10px;
+}
+.detail-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.BackBtn {
+  padding: 15px 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background-color: brown;
+  color: aliceblue;
+  display: block;
+  margin: 0 auto 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.BackBtn:hover {
+  background-color: #042236;
+}
