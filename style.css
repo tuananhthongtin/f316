@@ -41,7 +41,7 @@ header .logo {
 .header__navbar ul li a {
   text-decoration: none;
   padding: 20px;
-  font-size: 26px;
+  font-size: 20px;
   color: #ffffff;
   font-weight: 500;
 }
@@ -59,7 +59,7 @@ header .logo {
   color: red;
 }
 .header__info i {
-  font-size: 33px;
+  font-size: 25px;
   margin: 15px;
   padding: 5px;
   color: #fff;
